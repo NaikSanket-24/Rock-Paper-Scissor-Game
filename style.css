@@ -1,0 +1,81 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    color:WHite;
+    background-color: rgb(10, 10, 34);
+    height:40px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(247, 247, 248);
+}
+
+.choice:hover{
+/* Opacity is used to make an element blur when we click on them */
+opacity:0.5;
+cursor:pointer;
+}
+
+img{
+    height:200px;
+    width:200px;
+    object-fit:cover;
+    border-radius:50%;     /* object-fit property is a property tht is used to fit images properly and it looks in a better way*/
+} 
+
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+    margin-top:40px;
+}
+
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    gap:80px;
+    margin-top:30px;
+    margin-left: 30px;
+} 
+
+#u-Score, #c-Score{
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+#c-Score{
+    margin-left:80px;
+
+}
+
+#mess{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:rgb(41, 32, 32);
+    margin-top:30px;
+
+}
+
+.m-Container{
+    height:50px;
+    width:100%;
+    background-color: black;
+    color:white;
+    border-radius:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+}
